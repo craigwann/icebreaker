@@ -38,10 +38,10 @@ p.author {
   color: red;
 }
 
-img {
+/* img {
   float: left;
   margin: 10px;
-}
+} */
 
 .sidebar {
   width: 30%;
@@ -57,10 +57,23 @@ img {
 }
 
 .my-class {
-  margin: 12px;
-  border: 2px solid green;
-  padding: 4px;
-  background-color: orange;
+  border: 2px solid cornflowerblue;
+  padding: 10px;
+  background-color: #bedaf0;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.centered-image {
+  border: 2px solid cornflowerblue;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
 }
 
 .box1 {
